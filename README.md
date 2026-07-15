@@ -397,15 +397,4 @@ Toàn bộ quy trình được thực hiện và kiểm chứng bằng hình ả
 
 ---
 
-## 8. Gợi ý mô tả trong CV
-
-> Có thể sử dụng trực tiếp hoặc điều chỉnh 4 gạch đầu dòng sau cho mục **Dự án cá nhân / Kinh nghiệm thực hành** trong CV:
-
-- Triển khai hạ tầng **Active Directory Domain Services** trên Windows Server 2019 cho mô hình doanh nghiệp mô phỏng, xây dựng cấu trúc **4 OU và 5 Security Group** theo phòng ban, giúp áp dụng Group Policy và phân quyền tài nguyên độc lập cho từng bộ phận mà không ảnh hưởng chéo.
-- Tự phát hiện và xử lý thành công **2 sự cố kỹ thuật thực tế** phát sinh ngoài tài liệu hướng dẫn (mất kết nối mạng sau khi promote Domain Controller, lỗi xác thực khi join domain do sai phân quyền tài khoản), thể hiện năng lực troubleshooting độc lập không phụ thuộc quy trình mẫu.
-- Thiết kế và triển khai mô hình phân quyền **NTFS 2 lớp (Public/Private)** theo nguyên tắc *least-privilege* cho **11 tài khoản** thuộc 5 phòng ban, kết hợp Mapped Network Drive — đảm bảo dữ liệu nội bộ chỉ truy cập đúng phạm vi được cấp quyền.
-- Cấu hình và kiểm thử đầu-cuối các chính sách bảo mật tài khoản (**Logon Hours, Account Expires**, bắt buộc đổi mật khẩu lần đầu) trên máy trạm Windows 10 đã join domain, xác nhận **100% chính sách được Active Directory thực thi chính xác** trong môi trường thực tế.
-
----
-
 *Dự án cá nhân thực hiện nhằm mục đích học tập và minh họa năng lực triển khai, vận hành hạ tầng CNTT doanh nghiệp — phù hợp với vị trí IT Support / Helpdesk / System Administrator.*
